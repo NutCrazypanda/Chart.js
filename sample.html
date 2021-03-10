@@ -12,8 +12,7 @@ BODY {
     height: auto;
 }
 </style>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="dist/Chart.bundle.min.js"></script>
 
 
 
@@ -26,7 +25,7 @@ BODY {
   var ctx = document.getElementById('myChart').getContext('2d');
   var chart = new Chart(ctx, {
       // The type of chart we want to create
-      type: 'line',
+      type: 'bar',
 
       // The data for our dataset
       data: {
