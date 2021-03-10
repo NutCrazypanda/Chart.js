@@ -15,8 +15,10 @@ Now that we have a canvas we can use, we need to include Chart.js in our page.
 
 ```
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+```
 Now, we can create a chart. We add a script to our page:
 
+```
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
