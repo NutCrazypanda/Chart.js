@@ -11,10 +11,11 @@ First, we need to have a canvas in our page.
 ```
 <canvas id="myChart"></canvas>
 ```
-Now that we have a canvas we can use, we need to include Chart.js in our page.
+Now that we have a canvas we can use, we need to include Chart.min.js & jquery.min.js in our page.
 
 ```
-<script src="js/chart.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
 ```
 Now, we can create a chart. We add a script to our page:
 
@@ -39,3 +40,4 @@ var chart = new Chart(ctx, {
     options: {}
 });
 ```
+Test on sample.html
